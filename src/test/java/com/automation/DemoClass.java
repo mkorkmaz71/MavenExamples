@@ -9,5 +9,6 @@ public class DemoClass {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.youtube.com");
+        driver.get("https://www.amazon.com");
     }
 }
